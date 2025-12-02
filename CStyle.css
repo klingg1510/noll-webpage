@@ -1,0 +1,84 @@
+<style>
+/* ----------- CSS RESET ----------- */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: Arial, sans-serif; color: #222; }
+
+/* ----------- CARD ----------- */
+.card {
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 20px;
+  background: #fff;
+  margin-bottom: 20px;
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+/* ----------- INPUT ----------- */
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+input.error {
+  border-color: #d9534f;
+}
+
+/* ----------- BUTTON ----------- */
+button {
+  background: #111;
+  color: white;
+  border: none;
+  padding: 10px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+button:hover { background: #333; }
+
+button.outline {
+  background: white;
+  color: #111;
+  border: 1px solid #111;
+}
+button.outline:hover {
+  background: #f0f0f0;
+}
+
+/* ----------- BADGE ----------- */
+.badge {
+  display: inline-block;
+  background: #eee;
+  padding: 3px 8px;
+  border-radius: 6px;
+  font-size: 12px;
+}
+
+/* ----------- SEPARATOR ----------- */
+.separator {
+  height: 1px;
+  width: 100%;
+  background: #ddd;
+  margin: 15px 0;
+}
+
+/* ----------- ALERT ----------- */
+.text-error { color: #d9534f; font-size: 13px; margin-top: 5px; }
+.text-success { color: #2fb344; font-size: 13px; margin-top: 5px; }
+
+/* ----------- TRUST BADGE ----------- */
+.trust-row {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+.trust-label { font-size: 14px; font-weight: 600; }
+.trust-desc { font-size: 12px; color: #777; }
+</style>
